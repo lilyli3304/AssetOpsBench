@@ -156,7 +156,9 @@ class ToolUniverse:
     def __init__(self, servers: Optional[Dict[str, List[str]]] = None,
                  env: Optional[dict] = None):
         self.servers = servers or DEFAULT_SERVERS
+        # 继承环境变量
         self.env = {**os.environ, **(env or {})}
+        # 启动一个后台worker
         self._worker = _Worker()
         self._connected: set = set()
         self.all_tools: Dict[str, dict] = {}       # qualified name -> spec

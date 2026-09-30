@@ -204,3 +204,7 @@ src/tmp/
 
 # Observability artifacts (OTLP-JSON traces + per-run trajectory JSON).
 traces/
+
+# 本地资料（不提交）
+*.pdf
+CLAUDE_FOR_HELP.md
