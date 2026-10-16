@@ -1,0 +1,240 @@
+[
+  {
+    "case_id": "seasonal_trend_11",
+    "origin": 384,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 2.2423595611018547
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.559922567679315
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.26511623686113744
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.5517580522261151
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.16325935231794939
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "trend_only_11",
+    "origin": 384,
+    "horizon": 6,
+    "selected": "detrend_seasonal",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.324069043618446
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.2939140678624945
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.2455332142019587
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.3418155351562901
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.276941130114985
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "stationary_noise_11",
+    "origin": 384,
+    "horizon": 6,
+    "selected": "theta",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.3494205047264076
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.4057151963873382
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 1.4059155435292658
+      },
+      {
+        "method": "theta",
+        "validation_mae": 1.0615192746589173
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 1.064158624957204
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "level_shift_11",
+    "origin": 384,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.738324863873642
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.42653315553165516
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.6426818377511238
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.5548561194162909
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.33042634133986903
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "fixture_chiller_6",
+    "origin": 384,
+    "horizon": 6,
+    "selected": "theta",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 349.4220793777179
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 353.47023850871875
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 342.22783092410964
+      },
+      {
+        "method": "theta",
+        "validation_mae": 307.1010306343217
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 328.6884716488049
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "fixture_motor_01",
+    "origin": 384,
+    "horizon": 6,
+    "selected": "original_drift",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.17140063944497275
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.1716135
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.1717102898368866
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.1769173409816458
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.17598838241121895
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "fixture_hydraulic_pump_1",
+    "origin": 384,
+    "horizon": 6,
+    "selected": "seasonal_naive",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 2.3496924088790534
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 2.2346047222225516
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 2.2868224271719413
+      },
+      {
+        "method": "theta",
+        "validation_mae": 2.9362518691059236
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 3.0013595720421193
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  }
+]

@@ -1,0 +1,452 @@
+{
+  "python": "3.12.10",
+  "packages": {
+    "numpy": "2.4.2",
+    "pandas": "2.3.3",
+    "sktime": "1.0.1",
+    "statsmodels": "0.14.6"
+  },
+  "original_source_sha256": {
+    "src/servers/tsfm/engine/composition.py": "f0f6c75e591a14f526d798fd4307de58b46d5cfca22402eb654e786728d0c447",
+    "src/servers/tsfm/eval/forecast_eval.py": "1fa39f855c7a72b15e36c393a6b6de147870fa4aff36c4a176303e4b99223995",
+    "src/servers/tsfm/reasoning/dataquality.py": "9686b8cf9a84b335cb3a8c36923a7621ee1f6a4e9895f1e1caa597fcce0625fd",
+    "notebook/showcase_forecast_bakeoff.ipynb": "c4f64a0f8fb87e1562424369f97cb50240c5fd7c81a56c101c1f264d1eb74a9c",
+    "examples/learning_no_llm_answers/11_classical_forecast.py": "128261fdf9ca78a7e26671fcc786815a530f5657871812762fefec7f9ead6641"
+  },
+  "llm_calls": 0,
+  "is_paper_reproduction": false,
+  "baseline": "11_classical_forecast.py: NaiveForecaster(strategy='drift')",
+  "second_original_baseline": "forecast_bakeoff: ExponentialSmoothing(sp=sp)",
+  "seeds": [
+    11,
+    22,
+    33
+  ],
+  "origins": [
+    336,
+    384,
+    432
+  ],
+  "horizons": [
+    6,
+    24
+  ],
+  "n_planned_configs": 96,
+  "n_evaluated_configs": 93,
+  "skipped_configs": [
+    {
+      "case_id": "fixture_metro_pump_1",
+      "origin": 384,
+      "horizon": 6,
+      "reason": "missing outer test target",
+      "applies_to": "all methods"
+    },
+    {
+      "case_id": "fixture_metro_pump_1",
+      "origin": 384,
+      "horizon": 24,
+      "reason": "missing outer test target",
+      "applies_to": "all methods"
+    },
+    {
+      "case_id": "fixture_metro_pump_1",
+      "origin": 432,
+      "horizon": 24,
+      "reason": "missing outer test target",
+      "applies_to": "all methods"
+    }
+  ],
+  "selector": "two rolling validation folds; deterministic; no causal memory or LLM",
+  "cases": [
+    {
+      "case_id": "seasonal_trend_11",
+      "regime": "seasonal_trend",
+      "source_kind": "synthetic",
+      "seed": 11,
+      "sp": 24,
+      "source": "fixed generator in _common.py"
+    },
+    {
+      "case_id": "trend_only_11",
+      "regime": "trend_only",
+      "source_kind": "synthetic",
+      "seed": 11,
+      "sp": 24,
+      "source": "fixed generator in _common.py"
+    },
+    {
+      "case_id": "stationary_noise_11",
+      "regime": "stationary_noise",
+      "source_kind": "synthetic",
+      "seed": 11,
+      "sp": 24,
+      "source": "fixed generator in _common.py"
+    },
+    {
+      "case_id": "level_shift_11",
+      "regime": "level_shift",
+      "source_kind": "synthetic",
+      "seed": 11,
+      "sp": 24,
+      "source": "fixed generator in _common.py"
+    },
+    {
+      "case_id": "seasonal_trend_22",
+      "regime": "seasonal_trend",
+      "source_kind": "synthetic",
+      "seed": 22,
+      "sp": 24,
+      "source": "fixed generator in _common.py"
+    },
+    {
+      "case_id": "trend_only_22",
+      "regime": "trend_only",
+      "source_kind": "synthetic",
+      "seed": 22,
+      "sp": 24,
+      "source": "fixed generator in _common.py"
+    },
+    {
+      "case_id": "stationary_noise_22",
+      "regime": "stationary_noise",
+      "source_kind": "synthetic",
+      "seed": 22,
+      "sp": 24,
+      "source": "fixed generator in _common.py"
+    },
+    {
+      "case_id": "level_shift_22",
+      "regime": "level_shift",
+      "source_kind": "synthetic",
+      "seed": 22,
+      "sp": 24,
+      "source": "fixed generator in _common.py"
+    },
+    {
+      "case_id": "seasonal_trend_33",
+      "regime": "seasonal_trend",
+      "source_kind": "synthetic",
+      "seed": 33,
+      "sp": 24,
+      "source": "fixed generator in _common.py"
+    },
+    {
+      "case_id": "trend_only_33",
+      "regime": "trend_only",
+      "source_kind": "synthetic",
+      "seed": 33,
+      "sp": 24,
+      "source": "fixed generator in _common.py"
+    },
+    {
+      "case_id": "stationary_noise_33",
+      "regime": "stationary_noise",
+      "source_kind": "synthetic",
+      "seed": 33,
+      "sp": 24,
+      "source": "fixed generator in _common.py"
+    },
+    {
+      "case_id": "level_shift_33",
+      "regime": "level_shift",
+      "source_kind": "synthetic",
+      "seed": 33,
+      "sp": 24,
+      "source": "fixed generator in _common.py"
+    },
+    {
+      "case_id": "fixture_chiller_6",
+      "regime": "chiller_6",
+      "source_kind": "repository_fixture",
+      "seed": 0,
+      "sp": 96,
+      "column": "Chiller 6 Power Input",
+      "source": "src\\couchdb\\scenarios_data\\shared\\iot\\chiller_6.json",
+      "source_sha256": "35f9a0685d6e088edbefbf2d644486d3a8618d1b9f0cbda0ac622bdecb8cacbf"
+    },
+    {
+      "case_id": "fixture_motor_01",
+      "regime": "motor_01",
+      "source_kind": "repository_fixture",
+      "seed": 0,
+      "sp": 1,
+      "column": "Vibration_X",
+      "source": "src\\couchdb\\scenarios_data\\shared\\iot\\motor_01.json",
+      "source_sha256": "39260122f92344b61ff66fb60c48a101c03bd9696481f4cb807a6a2a4fee50c1"
+    },
+    {
+      "case_id": "fixture_metro_pump_1",
+      "regime": "metro_pump_1",
+      "source_kind": "repository_fixture",
+      "seed": 0,
+      "sp": 1,
+      "column": "Compressor_Pressure_bar",
+      "source": "src\\couchdb\\scenarios_data\\shared\\iot\\metro_pump_1.json",
+      "source_sha256": "002a9f290bfe84805f8cbc97a3d9a3851c7e45aa01b20dd2196abea90e878050"
+    },
+    {
+      "case_id": "fixture_hydraulic_pump_1",
+      "regime": "hydraulic_pump_1",
+      "source_kind": "repository_fixture",
+      "seed": 0,
+      "sp": 1,
+      "column": "PS1_Pressure_bar_100Hz",
+      "source": "src\\couchdb\\scenarios_data\\shared\\iot\\hydraulic_pump_1.json",
+      "source_sha256": "622bcd1a668a939a2590b1aaf560ecce641731b04d802271b39ef454835918b5"
+    }
+  ],
+  "recipes": {
+    "1": {
+      "original_drift": {
+        "estimator": {
+          "sktime_class": "sktime.forecasting.naive.NaiveForecaster",
+          "params": {
+            "strategy": "drift"
+          }
+        }
+      },
+      "original_es_sp_only": {
+        "estimator": {
+          "sktime_class": "sktime.forecasting.exp_smoothing.ExponentialSmoothing",
+          "params": {
+            "sp": 1
+          }
+        }
+      },
+      "seasonal_naive": {
+        "estimator": {
+          "sktime_class": "sktime.forecasting.naive.NaiveForecaster",
+          "params": {
+            "strategy": "last",
+            "sp": 1
+          }
+        }
+      },
+      "detrend_seasonal": {
+        "estimator": {
+          "sktime_class": "sktime.forecasting.naive.NaiveForecaster",
+          "params": {
+            "strategy": "last",
+            "sp": 1
+          }
+        },
+        "transforms": [
+          {
+            "sktime_class": "sktime.transformations.series.detrend.Detrender",
+            "params": {}
+          }
+        ]
+      },
+      "theta": {
+        "estimator": {
+          "sktime_class": "sktime.forecasting.theta.ThetaForecaster",
+          "params": {
+            "sp": 1,
+            "deseasonalize": false
+          }
+        }
+      },
+      "holt_winters": {
+        "estimator": {
+          "sktime_class": "sktime.forecasting.exp_smoothing.ExponentialSmoothing",
+          "params": {
+            "sp": 1,
+            "trend": "add",
+            "seasonal": null,
+            "damped_trend": true
+          }
+        }
+      },
+      "mean_ensemble": {
+        "ensemble": {
+          "combine": "mean",
+          "members": [
+            {
+              "name": "drift",
+              "sktime_class": "sktime.forecasting.naive.NaiveForecaster",
+              "params": {
+                "strategy": "drift"
+              }
+            },
+            {
+              "name": "seasonal",
+              "sktime_class": "sktime.forecasting.naive.NaiveForecaster",
+              "params": {
+                "strategy": "last",
+                "sp": 1
+              }
+            }
+          ]
+        }
+      }
+    },
+    "24": {
+      "original_drift": {
+        "estimator": {
+          "sktime_class": "sktime.forecasting.naive.NaiveForecaster",
+          "params": {
+            "strategy": "drift"
+          }
+        }
+      },
+      "original_es_sp_only": {
+        "estimator": {
+          "sktime_class": "sktime.forecasting.exp_smoothing.ExponentialSmoothing",
+          "params": {
+            "sp": 24
+          }
+        }
+      },
+      "seasonal_naive": {
+        "estimator": {
+          "sktime_class": "sktime.forecasting.naive.NaiveForecaster",
+          "params": {
+            "strategy": "last",
+            "sp": 24
+          }
+        }
+      },
+      "detrend_seasonal": {
+        "estimator": {
+          "sktime_class": "sktime.forecasting.naive.NaiveForecaster",
+          "params": {
+            "strategy": "last",
+            "sp": 24
+          }
+        },
+        "transforms": [
+          {
+            "sktime_class": "sktime.transformations.series.detrend.Detrender",
+            "params": {}
+          }
+        ]
+      },
+      "theta": {
+        "estimator": {
+          "sktime_class": "sktime.forecasting.theta.ThetaForecaster",
+          "params": {
+            "sp": 24,
+            "deseasonalize": true
+          }
+        }
+      },
+      "holt_winters": {
+        "estimator": {
+          "sktime_class": "sktime.forecasting.exp_smoothing.ExponentialSmoothing",
+          "params": {
+            "sp": 24,
+            "trend": "add",
+            "seasonal": "add",
+            "damped_trend": true
+          }
+        }
+      },
+      "mean_ensemble": {
+        "ensemble": {
+          "combine": "mean",
+          "members": [
+            {
+              "name": "drift",
+              "sktime_class": "sktime.forecasting.naive.NaiveForecaster",
+              "params": {
+                "strategy": "drift"
+              }
+            },
+            {
+              "name": "seasonal",
+              "sktime_class": "sktime.forecasting.naive.NaiveForecaster",
+              "params": {
+                "strategy": "last",
+                "sp": 24
+              }
+            }
+          ]
+        }
+      }
+    },
+    "96": {
+      "original_drift": {
+        "estimator": {
+          "sktime_class": "sktime.forecasting.naive.NaiveForecaster",
+          "params": {
+            "strategy": "drift"
+          }
+        }
+      },
+      "original_es_sp_only": {
+        "estimator": {
+          "sktime_class": "sktime.forecasting.exp_smoothing.ExponentialSmoothing",
+          "params": {
+            "sp": 96
+          }
+        }
+      },
+      "seasonal_naive": {
+        "estimator": {
+          "sktime_class": "sktime.forecasting.naive.NaiveForecaster",
+          "params": {
+            "strategy": "last",
+            "sp": 96
+          }
+        }
+      },
+      "detrend_seasonal": {
+        "estimator": {
+          "sktime_class": "sktime.forecasting.naive.NaiveForecaster",
+          "params": {
+            "strategy": "last",
+            "sp": 96
+          }
+        },
+        "transforms": [
+          {
+            "sktime_class": "sktime.transformations.series.detrend.Detrender",
+            "params": {}
+          }
+        ]
+      },
+      "theta": {
+        "estimator": {
+          "sktime_class": "sktime.forecasting.theta.ThetaForecaster",
+          "params": {
+            "sp": 96,
+            "deseasonalize": true
+          }
+        }
+      },
+      "holt_winters": {
+        "estimator": {
+          "sktime_class": "sktime.forecasting.exp_smoothing.ExponentialSmoothing",
+          "params": {
+            "sp": 96,
+            "trend": "add",
+            "seasonal": "add",
+            "damped_trend": true
+          }
+        }
+      },
+      "mean_ensemble": {
+        "ensemble": {
+          "combine": "mean",
+          "members": [
+            {
+              "name": "drift",
+              "sktime_class": "sktime.forecasting.naive.NaiveForecaster",
+              "params": {
+                "strategy": "drift"
+              }
+            },
+            {
+              "name": "seasonal",
+              "sktime_class": "sktime.forecasting.naive.NaiveForecaster",
+              "params": {
+                "strategy": "last",
+                "sp": 96
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

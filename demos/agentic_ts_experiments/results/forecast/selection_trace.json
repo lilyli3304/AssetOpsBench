@@ -1,0 +1,3164 @@
+[
+  {
+    "case_id": "seasonal_trend_11",
+    "origin": 336,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 2.2155148009909156
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.8730899418188585
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.49231050234173895
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.5544208535914471
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.39308834632418205
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "seasonal_trend_11",
+    "origin": 336,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 2.62552381389432
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.6838705056526502
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.365939764260179
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.6500851212500395
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.2962785752090989
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "seasonal_trend_11",
+    "origin": 384,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 2.2423595611018547
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.559922567679315
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.26511623686113744
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.5517580522261151
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.16325935231794939
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "seasonal_trend_11",
+    "origin": 384,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 2.603866667020856
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.5978189681549071
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.3675193151948457
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.7044630920379547
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.22493197662314018
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "seasonal_trend_11",
+    "origin": 432,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 2.139936277648072
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.5370718603025232
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.3974327029083667
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.5641335912526838
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.34908030957319214
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "seasonal_trend_11",
+    "origin": 432,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 2.6799610906539497
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.6226928145149241
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.32391220242425556
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.7063267192352485
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.2411836400712155
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "trend_only_11",
+    "origin": 336,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.2947416607794935
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.464615312057994
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.39234758924524193
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.295199560961778
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.23923531601280898
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "trend_only_11",
+    "origin": 336,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.4543761491891769
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.4481705163970733
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.44263527079142284
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.4573151999608708
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.31047448278038303
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "trend_only_11",
+    "origin": 384,
+    "horizon": 6,
+    "selected": "detrend_seasonal",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.324069043618446
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.2939140678624945
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.2455332142019587
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.3418155351562901
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.276941130114985
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "trend_only_11",
+    "origin": 384,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.3014734459908238
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.4637629810964254
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.3479497778745645
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.39183355310197
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.27140210720209285
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "trend_only_11",
+    "origin": 432,
+    "horizon": 6,
+    "selected": "theta",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.28822494017150524
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.5116568263515506
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.2487985966031374
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.20309962224157135
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.22606247217999473
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "trend_only_11",
+    "origin": 432,
+    "horizon": 24,
+    "selected": "detrend_seasonal",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.31079994915437137
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.46453982356062
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.30183661448390176
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.3895391445922588
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.30686599295326883
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "stationary_noise_11",
+    "origin": 336,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.646660506858275
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.9946387592896224
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.9946511549839201
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.8385389633901841
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.8325140933512056
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "stationary_noise_11",
+    "origin": 336,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.8430225516505107
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.0934935420645118
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 1.0944434001820431
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.8662396192425332
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.8355946382568256
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "stationary_noise_11",
+    "origin": 384,
+    "horizon": 6,
+    "selected": "theta",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.3494205047264076
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.4057151963873382
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 1.4059155435292658
+      },
+      {
+        "method": "theta",
+        "validation_mae": 1.0615192746589173
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 1.064158624957204
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "stationary_noise_11",
+    "origin": 384,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.660218386041055
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.4341075579673537
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 1.4342741752248351
+      },
+      {
+        "method": "theta",
+        "validation_mae": 1.0582622594781999
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 1.0475714966974303
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "stationary_noise_11",
+    "origin": 432,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.6847165010102851
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.575178501666943
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 1.5763995319161446
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.9583443155990302
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.951454827945712
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "stationary_noise_11",
+    "origin": 432,
+    "horizon": 24,
+    "selected": "theta",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.484623694074842
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.552103880600006
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 1.5520612349687606
+      },
+      {
+        "method": "theta",
+        "validation_mae": 1.2278267602582669
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 1.2295933489887938
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "level_shift_11",
+    "origin": 336,
+    "horizon": 6,
+    "selected": "seasonal_naive",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.9671314059680999
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.4234573390364439
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.4698533627881455
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.598002876657293
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.49847890763076474
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "level_shift_11",
+    "origin": 336,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 2.70014649207838
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 3.647115598343172
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 3.6331093024236343
+      },
+      {
+        "method": "theta",
+        "validation_mae": 2.188837332077933
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 2.051614007020521
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "level_shift_11",
+    "origin": 384,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.738324863873642
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.42653315553165516
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.6426818377511238
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.5548561194162909
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.33042634133986903
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "level_shift_11",
+    "origin": 384,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.3850368069119097
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.361785043233138
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.45980067829374294
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.38607178711201257
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.29119114978142857
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "level_shift_11",
+    "origin": 432,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.7873106644720167
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.3911914984371367
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.36751140850843544
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.3385599442896613
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.1553614915688195
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "level_shift_11",
+    "origin": 432,
+    "horizon": 24,
+    "selected": "theta",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.4855318585409727
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.3381023646410761
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.46483477697587133
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.261504116131276
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.37430448164510755
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "seasonal_trend_22",
+    "origin": 336,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.9687869037094403
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.8960449650900959
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.3547790009601197
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.6289297283091159
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.3224191384261905
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "seasonal_trend_22",
+    "origin": 336,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 2.610786258764735
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.6834938161595073
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.36091824806041606
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.6016620089250957
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.31620623221849153
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "seasonal_trend_22",
+    "origin": 384,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 2.2623531193009496
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.5521205255698913
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.43753794421652464
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.4789784619762039
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.1702391192699769
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "seasonal_trend_22",
+    "origin": 384,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 2.71797058105634
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.5834013285375974
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.33914822542388745
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.635815850035066
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.2949826534329991
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "seasonal_trend_22",
+    "origin": 432,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 2.0449232316408033
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.7384097243606089
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.32596268938648476
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.7683032562000772
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.31323262201685864
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "seasonal_trend_22",
+    "origin": 432,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 2.622372324894309
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.6633205327894354
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.3385442142650168
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.6973711793311261
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.2815987949965453
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "trend_only_22",
+    "origin": 336,
+    "horizon": 6,
+    "selected": "theta",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.33280794043328454
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.6225223066579715
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.313809714091955
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.26740385746780027
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.27649092805207687
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "trend_only_22",
+    "origin": 336,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.5075626906627048
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.453286490885013
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.34534752128585816
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.4409990890936709
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.3098843493524169
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "trend_only_22",
+    "origin": 384,
+    "horizon": 6,
+    "selected": "original_drift",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.24626970273704413
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.4059352884649172
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.4198215461541306
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.31454524064950934
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.28706408542201167
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "trend_only_22",
+    "origin": 384,
+    "horizon": 24,
+    "selected": "original_drift",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.23084509056482064
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.4101513330750586
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.33361489584218285
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.3835043994575048
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.25438489297930333
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "trend_only_22",
+    "origin": 432,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.3245324938468806
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.5205372604632825
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.354438476540348
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.3096716859968266
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.23883183465984698
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "trend_only_22",
+    "origin": 432,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.3825798467627942
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.4519604132066366
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.35404832240238926
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.3385767111935949
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.29262957259968897
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "stationary_noise_22",
+    "origin": 336,
+    "horizon": 6,
+    "selected": "theta",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.6731740083136781
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.9278827510137426
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 1.9368517379495391
+      },
+      {
+        "method": "theta",
+        "validation_mae": 1.3904015101861509
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 1.3931545493527056
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "stationary_noise_22",
+    "origin": 336,
+    "horizon": 24,
+    "selected": "original_drift",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.0770402205141556
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.4707618208403122
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 1.4743382681661077
+      },
+      {
+        "method": "theta",
+        "validation_mae": 1.1719411263730872
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 1.145004020109088
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "stationary_noise_22",
+    "origin": 384,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.15388011271339
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.418057226143731
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 1.4177808935535032
+      },
+      {
+        "method": "theta",
+        "validation_mae": 1.1102167895376576
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 1.109042344906808
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "stationary_noise_22",
+    "origin": 384,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.285445246454788
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.2956426597186934
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 1.295961020644698
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.9700549169796602
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.9676202655855803
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "stationary_noise_22",
+    "origin": 432,
+    "horizon": 6,
+    "selected": "theta",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.9464281608168801
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.7506854278924132
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.7511951844097611
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.7345702484732118
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.7399706876711344
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "stationary_noise_22",
+    "origin": 432,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.0667227796743648
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.1302203513415505
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 1.1305861823113355
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.7746111968752432
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.7567417938480153
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "level_shift_22",
+    "origin": 336,
+    "horizon": 6,
+    "selected": "seasonal_naive",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.0452039151458163
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.25877094442279736
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.3833026181782403
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.3385578430376167
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.30558994883147567
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "level_shift_22",
+    "origin": 336,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 2.9340282624925234
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 3.5938100946743923
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 3.5864536582256785
+      },
+      {
+        "method": "theta",
+        "validation_mae": 2.0080926025082118
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 1.962490503055236
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "level_shift_22",
+    "origin": 384,
+    "horizon": 6,
+    "selected": "theta",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.2115234377174187
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.26050974027443424
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.4035520374499736
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.24476104391094675
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.2987235135404015
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "level_shift_22",
+    "origin": 384,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.4442616305286573
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.3585032717359815
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.4078416697303543
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.32796328517929313
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.2975730057107947
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "level_shift_22",
+    "origin": 432,
+    "horizon": 6,
+    "selected": "seasonal_naive",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.375556533112083
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.3096841981027346
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.6048205138166548
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.3200836585067603
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.4485358011514856
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "level_shift_22",
+    "origin": 432,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.4012527357508522
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.3040680183232024
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.5336853814263742
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.3680933225114323
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.2635893335160541
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "seasonal_trend_33",
+    "origin": 336,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 2.4729047382040985
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.5029118777621007
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.34819828674061293
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.6272532436668904
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.29135566647668865
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "seasonal_trend_33",
+    "origin": 336,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 2.6338399564378134
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.6185686743657745
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.36830498079968793
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.6469847277633491
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.28454484880771447
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "seasonal_trend_33",
+    "origin": 384,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 2.054533358515009
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.7015112491462592
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.28245902430116165
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.6775468841341015
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.1651055472576856
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "seasonal_trend_33",
+    "origin": 384,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 2.73097149547426
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.6681416927342609
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.2935472545289969
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.6018370896225306
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.22638546692566114
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "seasonal_trend_33",
+    "origin": 432,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 2.071608469124634
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.7355719167699908
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.2600146912502064
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.7446224530686708
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.23050762640135414
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "seasonal_trend_33",
+    "origin": 432,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 2.6822663075946434
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.5370071407871553
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.24326970965300077
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.6831007649446288
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.241525181252847
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "trend_only_33",
+    "origin": 336,
+    "horizon": 6,
+    "selected": "original_drift",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.1641544554770776
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.4517120759636266
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.2686425833097375
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.20915804381697473
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.1827504463680203
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "trend_only_33",
+    "origin": 336,
+    "horizon": 24,
+    "selected": "original_drift",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.24213969729938906
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.4452961582996937
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.28028388162557316
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.416601301748297
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.2490419866783129
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "trend_only_33",
+    "origin": 384,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.3960634071236253
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.3373976572696993
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.2842757632177104
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.276420132937068
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.25150623875910405
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "trend_only_33",
+    "origin": 384,
+    "horizon": 24,
+    "selected": "detrend_seasonal",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.37809549563891875
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.4273056868042477
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.30710843535994226
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.6254941470530562
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.32577267967232776
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "trend_only_33",
+    "origin": 432,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.3424831180380963
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.5969170041620875
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.3968723357973924
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.27273366342286093
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.251120597635022
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "trend_only_33",
+    "origin": 432,
+    "horizon": 24,
+    "selected": "original_drift",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.25593253846296954
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.4605610460590137
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.41466493953592004
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.5348862891653173
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.32888772185072374
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "stationary_noise_33",
+    "origin": 336,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.8734910623571853
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.7799917234686522
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.7795804546427962
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.7049449241881962
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.704486334117836
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "stationary_noise_33",
+    "origin": 336,
+    "horizon": 24,
+    "selected": "original_drift",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.9935602927985026
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.1710519427147537
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 1.1724388268372756
+      },
+      {
+        "method": "theta",
+        "validation_mae": 1.025779386150056
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 1.0165075762574498
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "stationary_noise_33",
+    "origin": 384,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.629753337437092
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.1223393901719416
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 1.1217878673109312
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.7377406033933775
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.7360478899047797
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "stationary_noise_33",
+    "origin": 384,
+    "horizon": 24,
+    "selected": "theta",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.7967668512804592
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.0969463348859567
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 1.0979995498552415
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.7153088046285825
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.7217295027760897
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "stationary_noise_33",
+    "origin": 432,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.9407467940421523
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.8938986153654795
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 1.895175717446371
+      },
+      {
+        "method": "theta",
+        "validation_mae": 1.2468360369741807
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 1.2249938505064488
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "stationary_noise_33",
+    "origin": 432,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.5301807840954211
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 1.5227917683272656
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 1.5234670924806897
+      },
+      {
+        "method": "theta",
+        "validation_mae": 1.2266612937522812
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 1.2241159847606968
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "level_shift_33",
+    "origin": 336,
+    "horizon": 6,
+    "selected": "seasonal_naive",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.2960027874819604
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.35590538236179936
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.4021401954002484
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.3853231969520892
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.5442949933586455
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "level_shift_33",
+    "origin": 336,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 2.7735284875586657
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 3.6329973277530536
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 3.6151881574467293
+      },
+      {
+        "method": "theta",
+        "validation_mae": 2.037741600677566
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 1.990537268783384
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "level_shift_33",
+    "origin": 384,
+    "horizon": 6,
+    "selected": "theta",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.2568980551933144
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.31383158774977193
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.5677576333966912
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.26394780200257567
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.402355709059069
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "level_shift_33",
+    "origin": 384,
+    "horizon": 24,
+    "selected": "seasonal_naive",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.4644965000535501
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.310382510263028
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.4385789677921469
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.34389955480100365
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.35653724757424654
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "level_shift_33",
+    "origin": 432,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.9218511016088407
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.2836967158112772
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.411325364973988
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.23329750916702352
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.22194194262972555
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "level_shift_33",
+    "origin": 432,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 1.4814661302116687
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.33009047835021244
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.44945068737120153
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.32421774599321895
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.2613894813812646
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "fixture_chiller_6",
+    "origin": 336,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 381.4861695210228
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 368.35882808418734
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 378.48923089504785
+      },
+      {
+        "method": "theta",
+        "validation_mae": 388.28024224573335
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 363.8749926845847
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "fixture_chiller_6",
+    "origin": 336,
+    "horizon": 24,
+    "selected": "original_drift",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 349.01238712291956
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 419.45076949065435
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 429.9176442236616
+      },
+      {
+        "method": "theta",
+        "validation_mae": 492.85262887723195
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 362.4422715210743
+      }
+    ],
+    "validation_observed_counts": [
+      22,
+      24
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "fixture_chiller_6",
+    "origin": 384,
+    "horizon": 6,
+    "selected": "theta",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 349.4220793777179
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 353.47023850871875
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 342.22783092410964
+      },
+      {
+        "method": "theta",
+        "validation_mae": 307.1010306343217
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 328.6884716488049
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "fixture_chiller_6",
+    "origin": 384,
+    "horizon": 24,
+    "selected": "original_drift",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 384.4622264099726
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 567.6877882196382
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 564.4377647421641
+      },
+      {
+        "method": "theta",
+        "validation_mae": 478.65713337649254
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 430.4362876210369
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "fixture_chiller_6",
+    "origin": 432,
+    "horizon": 6,
+    "selected": "seasonal_naive",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 421.0246348302926
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 290.64896164463494
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 300.32541937010086
+      },
+      {
+        "method": "theta",
+        "validation_mae": 324.10497301918036
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 294.17831811493073
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "fixture_chiller_6",
+    "origin": 432,
+    "horizon": 24,
+    "selected": "theta",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 329.1851415132601
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 344.1772051402863
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 351.7536894828131
+      },
+      {
+        "method": "theta",
+        "validation_mae": 289.4280663246301
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 296.64934774362075
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "fixture_motor_01",
+    "origin": 336,
+    "horizon": 6,
+    "selected": "seasonal_naive",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.026663364711842184
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.026446833333333336
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.026844748416710904
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.05014048841549992
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.04939949469375141
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "fixture_motor_01",
+    "origin": 336,
+    "horizon": 24,
+    "selected": "seasonal_naive",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.0704488672921545
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.0694281875
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.07071028218901683
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.12491126518773861
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.1278550500476553
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "fixture_motor_01",
+    "origin": 384,
+    "horizon": 6,
+    "selected": "original_drift",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.17140063944497275
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.1716135
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.1717102898368866
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.1769173409816458
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.17598838241121895
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "fixture_motor_01",
+    "origin": 384,
+    "horizon": 24,
+    "selected": "original_drift",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.07966257340889563
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.08022264583333334
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.08100552406107561
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.09888734111748695
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.09521512176049725
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "fixture_motor_01",
+    "origin": 432,
+    "horizon": 6,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.3901611370279376
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.38756074999999995
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.3875684380831782
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.12622511086730667
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.12243174708085591
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "fixture_motor_01",
+    "origin": 432,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.16857379015563154
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.1636487083333333
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.16358359444871778
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.10659309406620081
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.10643760255403983
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "fixture_metro_pump_1",
+    "origin": 336,
+    "horizon": 6,
+    "selected": "detrend_seasonal",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.144345925747288
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.1438274570976969
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.1436764198881375
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.1530375023620956
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.15291300675496491
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "fixture_metro_pump_1",
+    "origin": 336,
+    "horizon": 24,
+    "selected": "seasonal_naive",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.33619528332386467
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.3254527571077599
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.3262744909533451
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.32948210604687145
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.32896648999025485
+      }
+    ],
+    "validation_observed_counts": [
+      22,
+      22
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "fixture_metro_pump_1",
+    "origin": 432,
+    "horizon": 6,
+    "selected": "theta",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.16070642050806094
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.1599659064122078
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.15921181992284442
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.14478340137954732
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.14520713394934479
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "fixture_hydraulic_pump_1",
+    "origin": 336,
+    "horizon": 6,
+    "selected": "theta",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.04484088455138391
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.026921944444206737
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.031170679039232617
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.0221303530170592
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.27253401569526403
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "fixture_hydraulic_pump_1",
+    "origin": 336,
+    "horizon": 24,
+    "selected": "holt_winters",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 0.3935568639844753
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 0.28321642361171406
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 0.3038560850947766
+      },
+      {
+        "method": "theta",
+        "validation_mae": 0.2677440525059751
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 0.20627308352865845
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 335,
+    "test_first_target": 336
+  },
+  {
+    "case_id": "fixture_hydraulic_pump_1",
+    "origin": 384,
+    "horizon": 6,
+    "selected": "seasonal_naive",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 2.3496924088790534
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 2.2346047222225516
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 2.2868224271719413
+      },
+      {
+        "method": "theta",
+        "validation_mae": 2.9362518691059236
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 3.0013595720421193
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "fixture_hydraulic_pump_1",
+    "origin": 384,
+    "horizon": 24,
+    "selected": "theta",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 6.3046757279105385
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 6.052300173610862
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 6.111328474743885
+      },
+      {
+        "method": "theta",
+        "validation_mae": 6.020755277584781
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 6.283720945461578
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 383,
+    "test_first_target": 384
+  },
+  {
+    "case_id": "fixture_hydraulic_pump_1",
+    "origin": 432,
+    "horizon": 6,
+    "selected": "detrend_seasonal",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 4.048612593798559
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 4.0379479166665835
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 3.9773704591824264
+      },
+      {
+        "method": "theta",
+        "validation_mae": 9.050047374044501
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 8.9305417957037
+      }
+    ],
+    "validation_observed_counts": [
+      6,
+      6
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  },
+  {
+    "case_id": "fixture_hydraulic_pump_1",
+    "origin": 432,
+    "horizon": 24,
+    "selected": "theta",
+    "evidence": [
+      {
+        "method": "original_drift",
+        "validation_mae": 10.836975581304943
+      },
+      {
+        "method": "seasonal_naive",
+        "validation_mae": 10.567595486112108
+      },
+      {
+        "method": "detrend_seasonal",
+        "validation_mae": 10.604400638196422
+      },
+      {
+        "method": "theta",
+        "validation_mae": 7.632021535391862
+      },
+      {
+        "method": "holt_winters",
+        "validation_mae": 8.101041925546099
+      }
+    ],
+    "validation_observed_counts": [
+      24,
+      24
+    ],
+    "validation_last_target": 431,
+    "test_first_target": 432
+  }
+]
