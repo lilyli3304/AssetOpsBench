@@ -5,7 +5,7 @@ import sys
 import numpy as np
 import pandas as pd
 
-from recipes import recipes
+from recipes_test_01 import recipes
 
 # 找到仓库根目录, 让 python 能导入原来的 servers 包
 ROOT = Path(__file__).resolve().parents[2]
