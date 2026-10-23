@@ -1,0 +1,176 @@
+{
+  "SubLOF": {
+    "detector": "SubLOF",
+    "repeat": 1,
+    "AP": 0.10909462262995309,
+    "ROC_AUC": 0.5208370886113559,
+    "peak": 2027,
+    "onset_error_samples": 21,
+    "onset_error_seconds": 0.005126953125,
+    "same_scores_as_first_run": true,
+    "diagnosis": {
+      "diagnoses": [
+        {
+          "fault_type": "unbalance",
+          "confidence": "high",
+          "description": "Mass unbalance detected - dominant 1x shaft speed component.",
+          "evidence": [
+            "1x amplitude = 0.3942 (25.6x RMS)",
+            "2x amplitude = 0.0466 (ratio 1x/2x = 8.5)"
+          ],
+          "recommendations": [
+            "Perform balancing of the rotor.",
+            "Check for material build-up or loss on rotating parts.",
+            "Verify coupling alignment (unbalance can be masked by misalignment)."
+          ]
+        }
+      ],
+      "iso_10816": {
+        "rms_velocity_mm_s": 29.662,
+        "iso_zone": "D",
+        "description": "Danger - risk of damage, stop machine",
+        "machine_group": "group2",
+        "thresholds": {
+          "A_good": 1.4,
+          "B_acceptable": 2.8,
+          "C_alarm": 7.1
+        }
+      },
+      "shaft_features": {
+        "shaft_freq_hz": 30.0,
+        "amp_1x": 0.394185,
+        "amp_2x": 0.046585,
+        "amp_3x": 0.013132,
+        "amp_half_x": 0.0,
+        "kurtosis": -1.5,
+        "crest_factor": 1.52
+      },
+      "signal_statistics": {
+        "rms_g": 0.568176,
+        "peak_g": 0.863688,
+        "crest_factor": 1.52,
+        "kurtosis": -1.5,
+        "duration_s": 0.5051,
+        "sample_rate_hz": 4096,
+        "rms_velocity_mm_s": 29.662
+      },
+      "bearing_analysis": null,
+      "bearing_info_source": null,
+      "report_markdown": "## Vibration Diagnosis Summary\n\n**Overall Severity (ISO 10816):** Zone D - 29.66 mm/s RMS - Danger - risk of damage, stop machine\n\n### Detected Conditions\n\n#### 1. Unbalance [HIGH]\n\nMass unbalance detected - dominant 1x shaft speed component.\n\n**Evidence:**\n- 1x amplitude = 0.3942 (25.6x RMS)\n- 2x amplitude = 0.0466 (ratio 1x/2x = 8.5)\n\n**Recommendations:**\n- Perform balancing of the rotor.\n- Check for material build-up or loss on rotating parts.\n- Verify coupling alignment (unbalance can be masked by misalignment).\n"
+    },
+    "report_target": {
+      "AP": 0.1091,
+      "ROC_AUC": 0.5208,
+      "peak": 2027,
+      "Standard_F1": 0.1886,
+      "Affiliation_F": 0.7119,
+      "F1_T": 0.3078,
+      "VUS_PR": 0.12,
+      "VUS_ROC": 0.5571
+    },
+    "Standard_F1": 0.1885976763037017,
+    "Affiliation_F": 0.7118945786314625,
+    "F1_T": 0.3078460991382599,
+    "VUS_ROC": 0.5570644708449439,
+    "VUS_PR": 0.11997607270235305,
+    "VUS_sliding_window": 100,
+    "F1_T_quantiles": 800,
+    "difference_from_report": {
+      "AP": -5.3773700469106345e-06,
+      "ROC_AUC": 3.708861135587327e-05,
+      "peak": 0.0,
+      "Standard_F1": -2.323696298295319e-06,
+      "Affiliation_F": -5.4213685374282505e-06,
+      "F1_T": 4.6099138259869665e-05,
+      "VUS_PR": -2.3927297646941792e-05,
+      "VUS_ROC": -3.5529155056113204e-05
+    }
+  },
+  "Time-RCD": {
+    "detector": "Time-RCD",
+    "repeat": 1,
+    "AP": 0.8884752947757767,
+    "ROC_AUC": 0.9774604086402757,
+    "peak": 2037,
+    "onset_error_samples": 11,
+    "onset_error_seconds": 0.002685546875,
+    "same_scores_as_first_run": true,
+    "diagnosis": {
+      "diagnoses": [
+        {
+          "fault_type": "unbalance",
+          "confidence": "high",
+          "description": "Mass unbalance detected - dominant 1x shaft speed component.",
+          "evidence": [
+            "1x amplitude = 0.3986 (25.9x RMS)",
+            "2x amplitude = 0.0488 (ratio 1x/2x = 8.2)"
+          ],
+          "recommendations": [
+            "Perform balancing of the rotor.",
+            "Check for material build-up or loss on rotating parts.",
+            "Verify coupling alignment (unbalance can be masked by misalignment)."
+          ]
+        }
+      ],
+      "iso_10816": {
+        "rms_velocity_mm_s": 29.598,
+        "iso_zone": "D",
+        "description": "Danger - risk of damage, stop machine",
+        "machine_group": "group2",
+        "thresholds": {
+          "A_good": 1.4,
+          "B_acceptable": 2.8,
+          "C_alarm": 7.1
+        }
+      },
+      "shaft_features": {
+        "shaft_freq_hz": 30.0,
+        "amp_1x": 0.39858,
+        "amp_2x": 0.048754,
+        "amp_3x": 0.014496,
+        "amp_half_x": 0.0,
+        "kurtosis": -1.51,
+        "crest_factor": 1.52
+      },
+      "signal_statistics": {
+        "rms_g": 0.56955,
+        "peak_g": 0.863688,
+        "crest_factor": 1.52,
+        "kurtosis": -1.51,
+        "duration_s": 0.5027,
+        "sample_rate_hz": 4096,
+        "rms_velocity_mm_s": 29.598
+      },
+      "bearing_analysis": null,
+      "bearing_info_source": null,
+      "report_markdown": "## Vibration Diagnosis Summary\n\n**Overall Severity (ISO 10816):** Zone D - 29.60 mm/s RMS - Danger - risk of damage, stop machine\n\n### Detected Conditions\n\n#### 1. Unbalance [HIGH]\n\nMass unbalance detected - dominant 1x shaft speed component.\n\n**Evidence:**\n- 1x amplitude = 0.3986 (25.9x RMS)\n- 2x amplitude = 0.0488 (ratio 1x/2x = 8.2)\n\n**Recommendations:**\n- Perform balancing of the rotor.\n- Check for material build-up or loss on rotating parts.\n- Verify coupling alignment (unbalance can be masked by misalignment).\n"
+    },
+    "report_target": {
+      "AP": 0.8885,
+      "ROC_AUC": 0.9775,
+      "peak": 2037,
+      "Standard_F1": 0.8422,
+      "Affiliation_F": 0.997,
+      "F1_T": 0.8378,
+      "VUS_PR": 0.9121,
+      "VUS_ROC": 0.9829
+    },
+    "Standard_F1": 0.8422459893048129,
+    "Affiliation_F": 0.9970274954806219,
+    "F1_T": 0.8377577662467957,
+    "VUS_ROC": 0.9828570121937681,
+    "VUS_PR": 0.9120573495931689,
+    "VUS_sliding_window": 100,
+    "F1_T_quantiles": 800,
+    "difference_from_report": {
+      "AP": -2.470522422326482e-05,
+      "ROC_AUC": -3.959135972431138e-05,
+      "peak": 0.0,
+      "Standard_F1": 4.5989304812921183e-05,
+      "Affiliation_F": 2.7495480621864132e-05,
+      "F1_T": -4.223375320433487e-05,
+      "VUS_PR": -4.2650406831157284e-05,
+      "VUS_ROC": -4.29878062319089e-05
+    }
+  }
+}

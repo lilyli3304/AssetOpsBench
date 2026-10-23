@@ -1,0 +1,51 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "arguments": {
+    "experiment": "vibration",
+    "output": "D:\\ML_master\\AssetOpsBench\\AssetOpsBench\\demos\\report_reproduction\\results",
+    "seed": 42,
+    "signal_decimals": 6,
+    "repeats": 6,
+    "skip_timercd": false,
+    "timercd_source": "D:\\ML_master\\AssetOpsBench\\AssetOpsBench\\src\\tmp\\report-reproduction\\Time-RCD-main",
+    "checkpoint": "D:\\ML_master\\AssetOpsBench\\AssetOpsBench\\src\\tmp\\report-reproduction\\checkpoints\\pretrain_checkpoint_best_uni.pth",
+    "threads": 4,
+    "vibration_window": 5000,
+    "tep_window": 256,
+    "tep_root": "D:\\ML_master\\AssetOpsBench\\AssetOpsBench\\demos\\report_reproduction\\results_costep_data_upstream_script",
+    "tep_format": "report-csv",
+    "tep_onset": 160,
+    "tsb_metrics": true,
+    "tsb_source": "D:\\ML_master\\AssetOpsBench\\AssetOpsBench\\src\\tmp\\report-reproduction\\Time-RCD-tsb-ad-integration",
+    "vus_window": 100,
+    "f1_t_splits": 800
+  },
+  "versions": {
+    "numpy": "2.4.2",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.7.2",
+    "sktime": "1.0.1",
+    "torch": "2.10.0",
+    "matplotlib": "3.11.2"
+  },
+  "upstream_archives": {
+    "Time-RCD-main.zip": {
+      "sha256": "43046608a1e88fd87e29d11c9689a7ae560b7b013b10e7579dbaca038591087f",
+      "git_revision": "372bb980426b2f67007311c6f3165ab789c79bef"
+    },
+    "Time-RCD-tsb.zip": {
+      "sha256": "294bcdae35b315d04e8dcbd6c9e995859379b109e9f3260d1115b86daf27545d",
+      "git_revision": "768bb4e2b019280bd47eb116ef976ca1b8360b0f"
+    }
+  },
+  "checkpoint": {
+    "path": "D:\\ML_master\\AssetOpsBench\\AssetOpsBench\\src\\tmp\\report-reproduction\\checkpoints\\pretrain_checkpoint_best_uni.pth",
+    "sha256": "be8906c6a62f16cedd8fe0fe48ef11c4363099633ed6ba8780af819337f7ffaa"
+  },
+  "aob_sources": {
+    "src\\servers\\vibration\\main.py": "ab6a52b38896ead7affc56242da7349b47e0c8eb0860a8c1d2465f2dc4a986d8",
+    "src\\servers\\vibration\\dsp\\fft_analysis.py": "a767c3b013fbc1f1cb8bc77853ed76b6680f9e3c69254117a39ffd9efd2bda1b",
+    "src\\servers\\vibration\\dsp\\fault_detection.py": "b85d1c81eee8815ec18edd9311226faab2e1ca9640d0ded98f0f88c438a5ac72"
+  }
+}

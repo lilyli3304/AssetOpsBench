@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/AssetOpsBench.iml" filepath="$PROJECT_DIR$/.idea/AssetOpsBench.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/assetopsbench-mcp.iml" filepath="$PROJECT_DIR$/.idea/assetopsbench-mcp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/granite-tsfm.iml" filepath="$PROJECT_DIR$/.idea/granite-tsfm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/time-rcd.iml" filepath="$PROJECT_DIR$/.idea/time-rcd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tsfmfinetuning.iml" filepath="$PROJECT_DIR$/.idea/tsfmfinetuning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tsfminference.iml" filepath="$PROJECT_DIR$/.idea/tsfminference.iml" />
     </modules>
   </component>
 </project>
