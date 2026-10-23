@@ -1,0 +1,55 @@
+{
+  "input": {
+    "path": "D:\\ML_master\\AssetOpsBench\\AssetOpsBench\\demos\\report_reproduction\\results_costep_data_upstream_script\\f1.csv",
+    "sha256": "510bfe179b9c5f79f5af8de3782523e56de28167b40a75a7a4cf457f51de1635",
+    "shape": [
+      961,
+      53
+    ],
+    "reproduction_status": "report_shape_and_protocol_only_original_data_identity_unverified"
+  },
+  "onset_source": "known_dataset_injection_index_not_detector",
+  "onset": 160,
+  "pca_components": 6,
+  "pca_explained_variance_ratio": [
+    0.31687699447870465,
+    0.24493220622643794,
+    0.09003214407081812,
+    0.04667183023241099,
+    0.043956636814428025,
+    0.03286558285138204
+  ],
+  "constant_baseline_columns": [
+    "XMV_12"
+  ],
+  "top5": [
+    {
+      "variable": "XMEAS_28",
+      "contribution": 0.7167381690386673
+    },
+    {
+      "variable": "XMEAS_34",
+      "contribution": 0.5757908137243772
+    },
+    {
+      "variable": "XMEAS_40",
+      "contribution": 0.09368202645904489
+    },
+    {
+      "variable": "XMV_7",
+      "contribution": 0.0804027970364588
+    },
+    {
+      "variable": "XMEAS_12",
+      "contribution": 0.08040279703645725
+    }
+  ],
+  "normal_top5_suppression": null,
+  "report_top5": [
+    "XMEAS_28",
+    "XMEAS_34",
+    "XMEAS_40",
+    "XMV_7",
+    "XMEAS_12"
+  ]
+}

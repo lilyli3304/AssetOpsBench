@@ -1,0 +1,19 @@
+scenario,detector,AP,ROC_AUC,positive_fraction,n_samples,n_variables,input_status,report_AP,report_ROC_AUC,AP_difference,ROC_AUC_difference
+f0,SubLOF,,,0.0,961,53,report_shape_and_protocol_only_original_data_identity_unverified,,,,
+f0,Time-RCD,,,0.0,961,53,report_shape_and_protocol_only_original_data_identity_unverified,,,,
+f0,SPE-only (additional baseline),,,0.0,961,53,report_shape_and_protocol_only_original_data_identity_unverified,,,,
+f1,SubLOF,0.8568989434614871,0.5288116416978776,0.8335067637877211,961,53,report_shape_and_protocol_only_original_data_identity_unverified,0.857,0.5295,-0.0001010565385128892,-0.0006883583021223272
+f1,Time-RCD,0.8830363837847779,0.6953495630461922,0.8335067637877211,961,53,report_shape_and_protocol_only_original_data_identity_unverified,0.883,0.6953,3.638378477788251e-05,4.956304619219143e-05
+f1,SPE-only (additional baseline),0.9635611233192707,0.8617353308364545,0.8335067637877211,961,53,report_shape_and_protocol_only_original_data_identity_unverified,,,,
+f3,SubLOF,0.8496594098155743,0.5707592072409489,0.8335067637877211,961,53,report_shape_and_protocol_only_original_data_identity_unverified,0.8496,0.5707,5.940981557428504e-05,5.9207240948877526e-05
+f3,Time-RCD,0.8009647616767649,0.3238217852684145,0.8335067637877211,961,53,report_shape_and_protocol_only_original_data_identity_unverified,0.801,0.3238,-3.523832323515386e-05,2.178526841450923e-05
+f3,SPE-only (additional baseline),0.93882249498191,0.7736969413233457,0.8335067637877211,961,53,report_shape_and_protocol_only_original_data_identity_unverified,,,,
+f4,SubLOF,0.8396334345911101,0.5207670099875157,0.8335067637877211,961,53,report_shape_and_protocol_only_original_data_identity_unverified,0.8397,0.5209,-6.656540888994034e-05,-0.0001329900124843464
+f4,Time-RCD,0.8180500266488071,0.33737515605493135,0.8335067637877211,961,53,report_shape_and_protocol_only_original_data_identity_unverified,0.8181,0.3374,-4.997335119294455e-05,-2.484394506863108e-05
+f4,SPE-only (additional baseline),0.9687972161418164,0.8689528714107366,0.8335067637877211,961,53,report_shape_and_protocol_only_original_data_identity_unverified,,,,
+f5,SubLOF,0.8372402607280942,0.5154104244694132,0.8335067637877211,961,53,report_shape_and_protocol_only_original_data_identity_unverified,0.8373,0.5155,-5.973927190583428e-05,-8.957553058674961e-05
+f5,Time-RCD,0.9141354806347329,0.7075686641697878,0.8335067637877211,961,53,report_shape_and_protocol_only_original_data_identity_unverified,0.9141,0.7076,3.548063473290952e-05,-3.133583021219799e-05
+f5,SPE-only (additional baseline),0.9023504721843902,0.6525983146067416,0.8335067637877211,961,53,report_shape_and_protocol_only_original_data_identity_unverified,,,,
+f7,SubLOF,0.8464271047927591,0.516315543071161,0.8335067637877211,961,53,report_shape_and_protocol_only_original_data_identity_unverified,0.8459,0.5137,0.0005271047927590811,0.002615543071160964
+f7,Time-RCD,0.8934786663117518,0.6667446941323347,0.8335067637877211,961,53,report_shape_and_protocol_only_original_data_identity_unverified,0.8935,0.6668,-2.1333688248192928e-05,-5.530586766522294e-05
+f7,SPE-only (additional baseline),0.8551064051432383,0.5552668539325842,0.8335067637877211,961,53,report_shape_and_protocol_only_original_data_identity_unverified,,,,

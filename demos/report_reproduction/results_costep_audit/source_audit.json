@@ -1,0 +1,390 @@
+{
+  "status": "parameter_audit_only_no_process_data_generated_by_this_script",
+  "upstream_revision": "219887764046ee8cbd5288fd1a94625ac2de006b",
+  "source_files": {
+    "G.mat": {
+      "path": "D:\\ML_master\\AssetOpsBench\\AssetOpsBench\\src\\tmp\\report-reproduction\\costep-source\\G.mat",
+      "url": "https://raw.githubusercontent.com/kennyuren/COSTEP/219887764046ee8cbd5288fd1a94625ac2de006b/G.mat",
+      "sha256": "a1918ba091d9c56cc9a30cc9e46009fde90c7177133650a052f4c87c7ea617dc"
+    },
+    "IDV.mat": {
+      "path": "D:\\ML_master\\AssetOpsBench\\AssetOpsBench\\src\\tmp\\report-reproduction\\costep-source\\IDV.mat",
+      "url": "https://raw.githubusercontent.com/kennyuren/COSTEP/219887764046ee8cbd5288fd1a94625ac2de006b/IDV.mat",
+      "sha256": "3cf843473fcb4bf00f22e200a6f91486de3f2a54390c6760553f5e84abf29ae9"
+    },
+    "Run_COSTEP.m": {
+      "path": "D:\\ML_master\\AssetOpsBench\\AssetOpsBench\\src\\tmp\\report-reproduction\\costep-source\\Run_COSTEP.m",
+      "url": "https://raw.githubusercontent.com/kennyuren/COSTEP/219887764046ee8cbd5288fd1a94625ac2de006b/Run_COSTEP.m",
+      "sha256": "79e89cbfa88487824760884fcdfdba3300c47cfbbbf1e29698e2a1fdabe8987d"
+    }
+  },
+  "parameter_shapes": {
+    "G": [
+      29,
+      2
+    ],
+    "IDV": [
+      28,
+      29
+    ]
+  },
+  "screenshot_evidence": {
+    "observed_train_scenario": 1,
+    "observed_fault_number": 0,
+    "observed_random_seed": 4243534565,
+    "official_seed_matches": true,
+    "observed_xmeas1_excel_column": "AH",
+    "inferred_metadata_layout": "5 metadata columns + 28 static IDV selections",
+    "inferred_xmeas1_column_number": 34,
+    "hidden_column_names_verified_from_screenshot": false
+  },
+  "report_protocol": {
+    "duration_hours": 48,
+    "sample_interval_seconds": 180,
+    "n_samples": 961,
+    "fault_onset_index": 160,
+    "source": "supplied TEP report; not recovered from a simulation output"
+  },
+  "cases": [
+    {
+      "dataset": "train",
+      "scenario": 1,
+      "fault_number": 0,
+      "random_seed": 4243534565,
+      "selected_idv": [],
+      "report_protocol_positive_count": 0,
+      "root_cause_variable_ground_truth": null
+    },
+    {
+      "dataset": "train",
+      "scenario": 2,
+      "fault_number": 1,
+      "random_seed": 7854912354,
+      "selected_idv": [
+        "IDV_1"
+      ],
+      "report_protocol_positive_count": 801,
+      "root_cause_variable_ground_truth": null
+    },
+    {
+      "dataset": "train",
+      "scenario": 4,
+      "fault_number": 3,
+      "random_seed": 1731738903,
+      "selected_idv": [
+        "IDV_3"
+      ],
+      "report_protocol_positive_count": 801,
+      "root_cause_variable_ground_truth": null
+    },
+    {
+      "dataset": "train",
+      "scenario": 5,
+      "fault_number": 4,
+      "random_seed": 4346024432,
+      "selected_idv": [
+        "IDV_4"
+      ],
+      "report_protocol_positive_count": 801,
+      "root_cause_variable_ground_truth": null
+    },
+    {
+      "dataset": "train",
+      "scenario": 6,
+      "fault_number": 5,
+      "random_seed": 5784921734,
+      "selected_idv": [
+        "IDV_5"
+      ],
+      "report_protocol_positive_count": 801,
+      "root_cause_variable_ground_truth": null
+    },
+    {
+      "dataset": "train",
+      "scenario": 8,
+      "fault_number": 7,
+      "random_seed": 7984782901,
+      "selected_idv": [
+        "IDV_7"
+      ],
+      "report_protocol_positive_count": 801,
+      "root_cause_variable_ground_truth": null
+    }
+  ],
+  "warnings": [
+    "G and IDV are simulation inputs, not XMEAS/XMV trajectories.",
+    "A static selected fault flag is not a per-time-point activation label.",
+    "Protocol labels were constructed from the reported onset; not measured or validated.",
+    "No expert variable-level root-cause truth table was supplied.",
+    "FMEA-generated candidates must not be used as their own evaluation truth."
+  ],
+  "model_fault_catalogue": {
+    "source_sha256": "442108736d2711800eed9def40997f6763029c22b5365579eda2f29f3c23ba8b",
+    "status": "fault_injection_descriptions_not_a_complete_fmea_or_variable_truth",
+    "default_mask_seed": "4243534565",
+    "default_mask_onset_hours": "1",
+    "parameter_scope_warning": "checkG/checkIDV explicitly inspect the base workspace; DD is mask-local. Verify effective onset from the recorded activation bus.",
+    "faults": [
+      {
+        "fault_number": 1,
+        "model_parameter": "IDV1",
+        "official_description": "IDV(1) - A/C feed ratio",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 2,
+        "model_parameter": "IDV2",
+        "official_description": "IDV(2) - B composition",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 3,
+        "model_parameter": "IDV3",
+        "official_description": "IDV(3) - D feed temperature",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 4,
+        "model_parameter": "IDV4",
+        "official_description": "IDV(4) - Reactor cooling water inlet temperature",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 5,
+        "model_parameter": "IDV5",
+        "official_description": "IDV(5) - Condenser cooling water inlet temperature",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 6,
+        "model_parameter": "IDV6",
+        "official_description": "IDV(6) - A feed loss",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 7,
+        "model_parameter": "IDV7",
+        "official_description": "IDV(7) - C header pressure loss (reduced availability)",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 8,
+        "model_parameter": "IDV8",
+        "official_description": "IDV(8) - A, B, C feed composition",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 9,
+        "model_parameter": "IDV9",
+        "official_description": "IDV(9) - D feed temperature",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 10,
+        "model_parameter": "IDV10",
+        "official_description": "IDV(10) - C feed temperature",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 11,
+        "model_parameter": "IDV11",
+        "official_description": "IDV(11) - Reactor cooling water inlet temperature",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 12,
+        "model_parameter": "IDV12",
+        "official_description": "IDV(12) - Condenser cooling water inlet temperature",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 13,
+        "model_parameter": "IDV13",
+        "official_description": "IDV(13) - Reaction kinetics",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 14,
+        "model_parameter": "IDV14",
+        "official_description": "IDV(14) - Reactor cooling water valve",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 15,
+        "model_parameter": "IDV15",
+        "official_description": "IDV(15) - Condenser cooling water valve",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 16,
+        "model_parameter": "IDV16",
+        "official_description": "IDV(16) - Unknown",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 17,
+        "model_parameter": "IDV17",
+        "official_description": "IDV(17) - Unknown",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 18,
+        "model_parameter": "IDV18",
+        "official_description": "IDV(18) - Unknown",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 19,
+        "model_parameter": "IDV19",
+        "official_description": "IDV(19) - Unknown",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 20,
+        "model_parameter": "IDV20",
+        "official_description": "IDV(20) - Unknown",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 21,
+        "model_parameter": "IDV21",
+        "official_description": "IDV(21) - A feed temperature",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 22,
+        "model_parameter": "IDV22",
+        "official_description": "IDV(22) - E feed temperature",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 23,
+        "model_parameter": "IDV23",
+        "official_description": "IDV(23) - A feed pressure",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 24,
+        "model_parameter": "IDV24",
+        "official_description": "IDV(24) - D feed pressure",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 25,
+        "model_parameter": "IDV25",
+        "official_description": "IDV(25) - E feed pressure",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 26,
+        "model_parameter": "IDV26",
+        "official_description": "IDV(26) - A, B, C feed pressure",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 27,
+        "model_parameter": "IDV27",
+        "official_description": "IDV(27) - Reactor cooling water supply pressure",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      },
+      {
+        "fault_number": 28,
+        "model_parameter": "IDV28",
+        "official_description": "IDV(28) - Condensor cooling water supply pressure",
+        "expert_variable_truth": null,
+        "severity": null,
+        "occurrence": null,
+        "detection": null
+      }
+    ]
+  },
+  "cached_history_audit": {
+    "sha256": "4a870b4849b8c393154d879721a6006e11bbdc3c781c2ac89e6217ace9e48333",
+    "commits_inspected": 25,
+    "data_like_paths": [
+      "G.mat",
+      "IDV.mat"
+    ]
+  }
+}

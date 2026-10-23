@@ -1,0 +1,28 @@
+{
+  "input": {
+    "path": "D:\\ML_master\\AssetOpsBench\\AssetOpsBench\\demos\\report_reproduction\\results_costep_data_upstream_script\\f0.csv",
+    "sha256": "0c9f87754d4d22a9ead87341dc1222fdd11e82ee6495054c633bcf962f5e9d8e",
+    "shape": [
+      961,
+      53
+    ],
+    "reproduction_status": "report_shape_and_protocol_only_original_data_identity_unverified"
+  },
+  "onset_source": "known_dataset_injection_index_not_detector",
+  "onset": 160,
+  "pca_components": 6,
+  "pca_explained_variance_ratio": [
+    0.13832010854585342,
+    0.07196079803545824,
+    0.05763777078614456,
+    0.05129721166643784,
+    0.048288582966813515,
+    0.04354409503010005
+  ],
+  "constant_baseline_columns": [
+    "XMV_12"
+  ],
+  "top5": [],
+  "normal_top5_suppression": "known_f0_label_not_automatic_normal_classification",
+  "report_top5": []
+}

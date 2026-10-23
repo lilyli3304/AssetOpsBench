@@ -1,0 +1,534 @@
+{
+  "screenshot": {
+    "reference": "visible cells of user-supplied TEP_originaldata01.png, manually transcribed",
+    "xmeas1_first29_display_matches": 29,
+    "first_row_first16_display_matches": 16,
+    "all_checked_display_values_equal": true,
+    "full_original_dataset_identity_verified": false
+  },
+  "cases": [
+    {
+      "fault_number": 0,
+      "input_sha256": "0c9f87754d4d22a9ead87341dc1222fdd11e82ee6495054c633bcf962f5e9d8e",
+      "actual_activation_positives": 0,
+      "protocol_positives": 0,
+      "actual_vs_protocol_disagreements": 0,
+      "faulty_points_inside_report_normal_baseline": 0,
+      "first_actual_fault_sample_index": null,
+      "actual_native_activation_onset_hours": [],
+      "parameter_mode": "upstream-script",
+      "simulation_mode": "accelerator",
+      "effective_random_seed": 4243534565.0,
+      "xmv12_std": 0.0,
+      "score_input_file": "D:\\ML_master\\AssetOpsBench\\AssetOpsBench\\demos\\report_reproduction\\results_costep_data_upstream_script\\f0.csv",
+      "score_input_sha256": "0c9f87754d4d22a9ead87341dc1222fdd11e82ee6495054c633bcf962f5e9d8e",
+      "top5": [],
+      "report_top5": [],
+      "report_top5_order_equal": true,
+      "report_top5_overlap_count": 0,
+      "top5_contributions": [],
+      "nonpositive_top5_variables": [],
+      "interpretation": "agreement_with_report_output_not_independent_root_cause_accuracy"
+    },
+    {
+      "fault_number": 1,
+      "input_sha256": "510bfe179b9c5f79f5af8de3782523e56de28167b40a75a7a4cf457f51de1635",
+      "actual_activation_positives": 941,
+      "protocol_positives": 801,
+      "actual_vs_protocol_disagreements": 140,
+      "faulty_points_inside_report_normal_baseline": 140,
+      "first_actual_fault_sample_index": 20,
+      "actual_native_activation_onset_hours": 1,
+      "parameter_mode": "upstream-script",
+      "simulation_mode": "accelerator",
+      "effective_random_seed": 7854912354.0,
+      "xmv12_std": 0.0,
+      "score_input_file": "D:\\ML_master\\AssetOpsBench\\AssetOpsBench\\demos\\report_reproduction\\results_costep_data_upstream_script\\f1.csv",
+      "score_input_sha256": "510bfe179b9c5f79f5af8de3782523e56de28167b40a75a7a4cf457f51de1635",
+      "top5": [
+        "XMEAS_28",
+        "XMEAS_34",
+        "XMEAS_40",
+        "XMV_7",
+        "XMEAS_12"
+      ],
+      "report_top5": [
+        "XMEAS_28",
+        "XMEAS_34",
+        "XMEAS_40",
+        "XMV_7",
+        "XMEAS_12"
+      ],
+      "report_top5_order_equal": true,
+      "report_top5_overlap_count": 5,
+      "top5_contributions": [
+        {
+          "variable": "XMEAS_28",
+          "contribution": 0.7167381690386673
+        },
+        {
+          "variable": "XMEAS_34",
+          "contribution": 0.5757908137243772
+        },
+        {
+          "variable": "XMEAS_40",
+          "contribution": 0.09368202645904489
+        },
+        {
+          "variable": "XMV_7",
+          "contribution": 0.0804027970364588
+        },
+        {
+          "variable": "XMEAS_12",
+          "contribution": 0.08040279703645725
+        }
+      ],
+      "nonpositive_top5_variables": [],
+      "interpretation": "agreement_with_report_output_not_independent_root_cause_accuracy"
+    },
+    {
+      "fault_number": 3,
+      "input_sha256": "3f633e9e7ef271a13f75f05b0e24c7e3cf78db9e4809d5a7f69fcaec38a8d790",
+      "actual_activation_positives": 941,
+      "protocol_positives": 801,
+      "actual_vs_protocol_disagreements": 140,
+      "faulty_points_inside_report_normal_baseline": 140,
+      "first_actual_fault_sample_index": 20,
+      "actual_native_activation_onset_hours": 1,
+      "parameter_mode": "upstream-script",
+      "simulation_mode": "accelerator",
+      "effective_random_seed": 1731738903.0,
+      "xmv12_std": 0.0,
+      "score_input_file": "D:\\ML_master\\AssetOpsBench\\AssetOpsBench\\demos\\report_reproduction\\results_costep_data_upstream_script\\f3.csv",
+      "score_input_sha256": "3f633e9e7ef271a13f75f05b0e24c7e3cf78db9e4809d5a7f69fcaec38a8d790",
+      "top5": [
+        "XMEAS_19",
+        "XMV_9",
+        "XMEAS_38",
+        "XMEAS_18",
+        "XMEAS_33"
+      ],
+      "report_top5": [
+        "XMEAS_19",
+        "XMV_9",
+        "XMEAS_38",
+        "XMEAS_18",
+        "XMEAS_33"
+      ],
+      "report_top5_order_equal": true,
+      "report_top5_overlap_count": 5,
+      "top5_contributions": [
+        {
+          "variable": "XMEAS_19",
+          "contribution": 0.3903205445093484
+        },
+        {
+          "variable": "XMV_9",
+          "contribution": 0.35459880462964133
+        },
+        {
+          "variable": "XMEAS_38",
+          "contribution": 0.31017715629498477
+        },
+        {
+          "variable": "XMEAS_18",
+          "contribution": 0.28238529546203306
+        },
+        {
+          "variable": "XMEAS_33",
+          "contribution": 0.2378671889975159
+        }
+      ],
+      "nonpositive_top5_variables": [],
+      "interpretation": "agreement_with_report_output_not_independent_root_cause_accuracy"
+    },
+    {
+      "fault_number": 4,
+      "input_sha256": "5b7e6534c03642e9e32fe89ed78860e53265b6a4edeea83fde72d44cf8e8e444",
+      "actual_activation_positives": 941,
+      "protocol_positives": 801,
+      "actual_vs_protocol_disagreements": 140,
+      "faulty_points_inside_report_normal_baseline": 140,
+      "first_actual_fault_sample_index": 20,
+      "actual_native_activation_onset_hours": 1,
+      "parameter_mode": "upstream-script",
+      "simulation_mode": "accelerator",
+      "effective_random_seed": 4346024432.0,
+      "xmv12_std": 0.0,
+      "score_input_file": "D:\\ML_master\\AssetOpsBench\\AssetOpsBench\\demos\\report_reproduction\\results_costep_data_upstream_script\\f4.csv",
+      "score_input_sha256": "5b7e6534c03642e9e32fe89ed78860e53265b6a4edeea83fde72d44cf8e8e444",
+      "top5": [
+        "XMEAS_19",
+        "XMV_9",
+        "XMEAS_20",
+        "XMEAS_18",
+        "XMEAS_38"
+      ],
+      "report_top5": [
+        "XMEAS_19",
+        "XMV_9",
+        "XMEAS_20",
+        "XMEAS_18",
+        "XMEAS_38"
+      ],
+      "report_top5_order_equal": true,
+      "report_top5_overlap_count": 5,
+      "top5_contributions": [
+        {
+          "variable": "XMEAS_19",
+          "contribution": 1.2083302521029933
+        },
+        {
+          "variable": "XMV_9",
+          "contribution": 1.0400500008774503
+        },
+        {
+          "variable": "XMEAS_20",
+          "contribution": 0.6657677245869313
+        },
+        {
+          "variable": "XMEAS_18",
+          "contribution": 0.5985883987529217
+        },
+        {
+          "variable": "XMEAS_38",
+          "contribution": 0.5063801073461804
+        }
+      ],
+      "nonpositive_top5_variables": [],
+      "interpretation": "agreement_with_report_output_not_independent_root_cause_accuracy"
+    },
+    {
+      "fault_number": 5,
+      "input_sha256": "5144ab84951e7732d9f1f2e47c391c32534f4649a685a068f846095b4c4c89bc",
+      "actual_activation_positives": 941,
+      "protocol_positives": 801,
+      "actual_vs_protocol_disagreements": 140,
+      "faulty_points_inside_report_normal_baseline": 140,
+      "first_actual_fault_sample_index": 20,
+      "actual_native_activation_onset_hours": 1,
+      "parameter_mode": "upstream-script",
+      "simulation_mode": "accelerator",
+      "effective_random_seed": 5784921734.0,
+      "xmv12_std": 0.0,
+      "score_input_file": "D:\\ML_master\\AssetOpsBench\\AssetOpsBench\\demos\\report_reproduction\\results_costep_data_upstream_script\\f5.csv",
+      "score_input_sha256": "5144ab84951e7732d9f1f2e47c391c32534f4649a685a068f846095b4c4c89bc",
+      "top5": [
+        "XMEAS_37",
+        "XMEAS_17",
+        "XMEAS_41",
+        "XMEAS_40",
+        "XMEAS_5"
+      ],
+      "report_top5": [
+        "XMEAS_37",
+        "XMEAS_17",
+        "XMEAS_41",
+        "XMEAS_40",
+        "XMEAS_5"
+      ],
+      "report_top5_order_equal": true,
+      "report_top5_overlap_count": 5,
+      "top5_contributions": [
+        {
+          "variable": "XMEAS_37",
+          "contribution": 0.2134574462177401
+        },
+        {
+          "variable": "XMEAS_17",
+          "contribution": 0.1326150293437447
+        },
+        {
+          "variable": "XMEAS_41",
+          "contribution": 0.08590839068807565
+        },
+        {
+          "variable": "XMEAS_40",
+          "contribution": 0.06142051478069821
+        },
+        {
+          "variable": "XMEAS_5",
+          "contribution": 0.03937525047002022
+        }
+      ],
+      "nonpositive_top5_variables": [],
+      "interpretation": "agreement_with_report_output_not_independent_root_cause_accuracy"
+    },
+    {
+      "fault_number": 7,
+      "input_sha256": "c59d41947a5800b40f5c4fa5bbf9a7e448ea17544e800b17d749b614b41891bd",
+      "actual_activation_positives": 941,
+      "protocol_positives": 801,
+      "actual_vs_protocol_disagreements": 140,
+      "faulty_points_inside_report_normal_baseline": 140,
+      "first_actual_fault_sample_index": 20,
+      "actual_native_activation_onset_hours": 1,
+      "parameter_mode": "upstream-script",
+      "simulation_mode": "accelerator",
+      "effective_random_seed": 7984782901.0,
+      "xmv12_std": 0.0,
+      "score_input_file": "D:\\ML_master\\AssetOpsBench\\AssetOpsBench\\demos\\report_reproduction\\results_costep_data_upstream_script\\f7.csv",
+      "score_input_sha256": "c59d41947a5800b40f5c4fa5bbf9a7e448ea17544e800b17d749b614b41891bd",
+      "top5": [
+        "XMEAS_37",
+        "XMEAS_41",
+        "XMEAS_17",
+        "XMEAS_40",
+        "XMV_12"
+      ],
+      "report_top5": [
+        "XMEAS_37",
+        "XMEAS_41",
+        "XMEAS_17",
+        "XMEAS_40",
+        "XMV_12"
+      ],
+      "report_top5_order_equal": true,
+      "report_top5_overlap_count": 5,
+      "top5_contributions": [
+        {
+          "variable": "XMEAS_37",
+          "contribution": 0.17705632357995527
+        },
+        {
+          "variable": "XMEAS_41",
+          "contribution": 0.1251998999098799
+        },
+        {
+          "variable": "XMEAS_17",
+          "contribution": 0.007114687510030748
+        },
+        {
+          "variable": "XMEAS_40",
+          "contribution": 0.0008858340930468778
+        },
+        {
+          "variable": "XMV_12",
+          "contribution": 0.0
+        }
+      ],
+      "nonpositive_top5_variables": [
+        "XMV_12"
+      ],
+      "interpretation": "agreement_with_report_output_not_independent_root_cause_accuracy"
+    }
+  ],
+  "metrics": [
+    {
+      "scenario": "f0",
+      "detector": "Time-RCD",
+      "AP": null,
+      "ROC_AUC": null,
+      "observed_activation_AP": null,
+      "observed_activation_ROC_AUC": null
+    },
+    {
+      "scenario": "f0",
+      "detector": "SubLOF",
+      "AP": null,
+      "ROC_AUC": null,
+      "observed_activation_AP": null,
+      "observed_activation_ROC_AUC": null
+    },
+    {
+      "scenario": "f1",
+      "detector": "Time-RCD",
+      "AP": 0.8830363837847779,
+      "ROC_AUC": 0.6953495630461922,
+      "observed_activation_AP": 0.9993918172174073,
+      "observed_activation_ROC_AUC": 0.9717321997874601,
+      "report_AP": 0.883,
+      "report_ROC_AUC": 0.6953,
+      "full_precision_report_AP": 0.8830375915216165,
+      "full_precision_report_ROC_AUC": 0.6953495630461923,
+      "full_precision_AP_difference": -1.2077368386487208e-06,
+      "full_precision_AUC_difference": -1.1102230246251565e-16,
+      "AP_difference": 3.638378477788251e-05,
+      "ROC_AUC_difference": 4.956304619219143e-05,
+      "displayed_AP_equal": true,
+      "displayed_AUC_equal": true
+    },
+    {
+      "scenario": "f1",
+      "detector": "SubLOF",
+      "AP": 0.8568989434614871,
+      "ROC_AUC": 0.5288116416978776,
+      "observed_activation_AP": 0.9795295056881133,
+      "observed_activation_ROC_AUC": 0.5670563230605739,
+      "report_AP": 0.857,
+      "report_ROC_AUC": 0.5295,
+      "full_precision_report_AP": 0.857046110786704,
+      "full_precision_report_ROC_AUC": 0.5294904806491886,
+      "full_precision_AP_difference": -0.00014716732521691256,
+      "full_precision_AUC_difference": -0.0006788389513109339,
+      "AP_difference": -0.0001010565385128892,
+      "ROC_AUC_difference": -0.0006883583021223272,
+      "displayed_AP_equal": false,
+      "displayed_AUC_equal": false
+    },
+    {
+      "scenario": "f3",
+      "detector": "Time-RCD",
+      "AP": 0.8009647616767649,
+      "ROC_AUC": 0.3238217852684145,
+      "observed_activation_AP": 0.9886483691220577,
+      "observed_activation_ROC_AUC": 0.5880446333687566,
+      "report_AP": 0.801,
+      "report_ROC_AUC": 0.3238,
+      "full_precision_report_AP": 0.8009629888994823,
+      "full_precision_report_ROC_AUC": 0.32381398252184773,
+      "full_precision_AP_difference": 1.7727772826381383e-06,
+      "full_precision_AUC_difference": 7.80274656675406e-06,
+      "AP_difference": -3.523832323515386e-05,
+      "ROC_AUC_difference": 2.178526841450923e-05,
+      "displayed_AP_equal": true,
+      "displayed_AUC_equal": true
+    },
+    {
+      "scenario": "f3",
+      "detector": "SubLOF",
+      "AP": 0.8496594098155743,
+      "ROC_AUC": 0.5707592072409489,
+      "observed_activation_AP": 0.9795833568681386,
+      "observed_activation_ROC_AUC": 0.5363974495217853,
+      "report_AP": 0.8496,
+      "report_ROC_AUC": 0.5707,
+      "full_precision_report_AP": 0.8496220960101901,
+      "full_precision_report_ROC_AUC": 0.5706655742821473,
+      "full_precision_AP_difference": 3.731380538418705e-05,
+      "full_precision_AUC_difference": 9.363295880160383e-05,
+      "AP_difference": 5.940981557428504e-05,
+      "ROC_AUC_difference": 5.9207240948877526e-05,
+      "displayed_AP_equal": false,
+      "displayed_AUC_equal": false
+    },
+    {
+      "scenario": "f4",
+      "detector": "Time-RCD",
+      "AP": 0.8180500266488071,
+      "ROC_AUC": 0.33737515605493135,
+      "observed_activation_AP": 0.9910380586721517,
+      "observed_activation_ROC_AUC": 0.6539319872476089,
+      "report_AP": 0.8181,
+      "report_ROC_AUC": 0.3374,
+      "full_precision_report_AP": 0.8180518838899216,
+      "full_precision_report_ROC_AUC": 0.33737515605493135,
+      "full_precision_AP_difference": -1.8572411144557321e-06,
+      "full_precision_AUC_difference": 0.0,
+      "AP_difference": -4.997335119294455e-05,
+      "ROC_AUC_difference": -2.484394506863108e-05,
+      "displayed_AP_equal": true,
+      "displayed_AUC_equal": true
+    },
+    {
+      "scenario": "f4",
+      "detector": "SubLOF",
+      "AP": 0.8396334345911101,
+      "ROC_AUC": 0.5207670099875157,
+      "observed_activation_AP": 0.9797091602215985,
+      "observed_activation_ROC_AUC": 0.546068012752391,
+      "report_AP": 0.8397,
+      "report_ROC_AUC": 0.5209,
+      "full_precision_report_AP": 0.8396545138536561,
+      "full_precision_report_ROC_AUC": 0.5208801498127341,
+      "full_precision_AP_difference": -2.1079262546019883e-05,
+      "full_precision_AUC_difference": -0.00011313982521843347,
+      "AP_difference": -6.656540888994034e-05,
+      "ROC_AUC_difference": -0.0001329900124843464,
+      "displayed_AP_equal": false,
+      "displayed_AUC_equal": false
+    },
+    {
+      "scenario": "f5",
+      "detector": "Time-RCD",
+      "AP": 0.9141354806347329,
+      "ROC_AUC": 0.7075686641697878,
+      "observed_activation_AP": 0.992426958287077,
+      "observed_activation_ROC_AUC": 0.6951115834218916,
+      "report_AP": 0.9141,
+      "report_ROC_AUC": 0.7076,
+      "full_precision_report_AP": 0.9141299433073565,
+      "full_precision_report_ROC_AUC": 0.7075530586766542,
+      "full_precision_AP_difference": 5.537327376403667e-06,
+      "full_precision_AUC_difference": 1.560549313361914e-05,
+      "AP_difference": 3.548063473290952e-05,
+      "ROC_AUC_difference": -3.133583021219799e-05,
+      "displayed_AP_equal": true,
+      "displayed_AUC_equal": true
+    },
+    {
+      "scenario": "f5",
+      "detector": "SubLOF",
+      "AP": 0.8372402607280942,
+      "ROC_AUC": 0.5154104244694132,
+      "observed_activation_AP": 0.9654023963411689,
+      "observed_activation_ROC_AUC": 0.36835812964930925,
+      "report_AP": 0.8373,
+      "report_ROC_AUC": 0.5155,
+      "full_precision_report_AP": 0.837294924610705,
+      "full_precision_report_ROC_AUC": 0.5154845505617978,
+      "full_precision_AP_difference": -5.4663882610772596e-05,
+      "full_precision_AUC_difference": -7.412609238455214e-05,
+      "AP_difference": -5.973927190583428e-05,
+      "ROC_AUC_difference": -8.957553058674961e-05,
+      "displayed_AP_equal": false,
+      "displayed_AUC_equal": false
+    },
+    {
+      "scenario": "f7",
+      "detector": "Time-RCD",
+      "AP": 0.8934786663117518,
+      "ROC_AUC": 0.6667446941323347,
+      "observed_activation_AP": 0.9764689760334987,
+      "observed_activation_ROC_AUC": 0.3883103081827843,
+      "report_AP": 0.8935,
+      "report_ROC_AUC": 0.6668,
+      "full_precision_report_AP": 0.8934793442817348,
+      "full_precision_report_ROC_AUC": 0.6667524968789014,
+      "full_precision_AP_difference": -6.779699830428143e-07,
+      "full_precision_AUC_difference": -7.802746566643037e-06,
+      "AP_difference": -2.1333688248192928e-05,
+      "ROC_AUC_difference": -5.530586766522294e-05,
+      "displayed_AP_equal": true,
+      "displayed_AUC_equal": false
+    },
+    {
+      "scenario": "f7",
+      "detector": "SubLOF",
+      "AP": 0.8464271047927591,
+      "ROC_AUC": 0.516315543071161,
+      "observed_activation_AP": 0.9814756778223076,
+      "observed_activation_ROC_AUC": 0.5158873538788522,
+      "report_AP": 0.8459,
+      "report_ROC_AUC": 0.5137,
+      "full_precision_report_AP": 0.845915457604189,
+      "full_precision_report_ROC_AUC": 0.5137211298377029,
+      "full_precision_AP_difference": 0.0005116471885701079,
+      "full_precision_AUC_difference": 0.002594413233458104,
+      "AP_difference": 0.0005271047927590811,
+      "ROC_AUC_difference": 0.002615543071160964,
+      "displayed_AP_equal": false,
+      "displayed_AUC_equal": false
+    }
+  ],
+  "metric_match_counts": {
+    "Time-RCD": {
+      "AP_matches_at_four_decimals": 5,
+      "AUC_matches_at_four_decimals": 4,
+      "fault_scenarios_compared": 5
+    },
+    "SubLOF": {
+      "AP_matches_at_four_decimals": 0,
+      "AUC_matches_at_four_decimals": 0,
+      "fault_scenarios_compared": 5
+    }
+  },
+  "ordered_top5_matches": 5,
+  "costep_source_hashes": {
+    "COSTEP.slx": "442108736d2711800eed9def40997f6763029c22b5365579eda2f29f3c23ba8b",
+    "mylib.slx": "1bbc8962a0d4aaced51fc3a8a10c7f9dfeccc6b871bcd4158ab1a8b73c59739e",
+    "Run_COSTEP.m": "79e89cbfa88487824760884fcdfdba3300c47cfbbbf1e29698e2a1fdabe8987d"
+  },
+  "fmea_generated": false,
+  "independent_variable_root_cause_truth_available": false
+}

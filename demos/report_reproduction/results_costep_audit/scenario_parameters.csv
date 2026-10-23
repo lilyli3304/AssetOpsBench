@@ -1,0 +1,7 @@
+dataset,scenario,fault_number,random_seed,selected_idv,report_protocol_positive_count,root_cause_variable_ground_truth
+train,1,0,4243534565,,0,
+train,2,1,7854912354,IDV_1,801,
+train,4,3,1731738903,IDV_3,801,
+train,5,4,4346024432,IDV_4,801,
+train,6,5,5784921734,IDV_5,801,
+train,8,7,7984782901,IDV_7,801,
